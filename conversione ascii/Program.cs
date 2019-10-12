@@ -1,12 +1,15 @@
 ﻿using System;
-
-namespace conversione_ascii
+class ASCII
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
+        string s;
+        Console.WriteLine(" inserisci la frase da convertire ");
+        s = Console.ReadLine();
+        foreach (char c in s)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine((int)c);
         }
+        Console.ReadLine();
     }
 }
