@@ -4,7 +4,7 @@ class ASCII
     public static void Main(string[] args)
     {
         string s;
-        Console.WriteLine(" inserisci la frase da convertire ");
+        Console.WriteLine(" inserisci la frase da convertire: ");
         s = Console.ReadLine();
         foreach (char c in s)
         {
