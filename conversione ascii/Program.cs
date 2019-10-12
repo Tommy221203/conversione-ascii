@@ -10,6 +10,12 @@ class ASCII
         {
             Console.WriteLine((int)c);
         }
+        string a;
+        Console.WriteLine("inserisci il codice ascii:");
+        a = Console.ReadLine();
+
         Console.ReadLine();
+
     }
+    
 }
